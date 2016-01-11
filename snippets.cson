@@ -88,7 +88,7 @@
       </head>
 
       <body>
-      	<div class="canvas threeHundredxTwoFifty">
+      	<div class="canvas threeHundredTwoFifty">
           $2
           <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
           <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
@@ -129,3 +129,72 @@
       </body>
       </html>
       """
+'.source.css':
+  '160x600 CSS':
+    'prefix': '160x600 CSS'
+    'body': """
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .canvas {
+      position:relative;
+      overflow:hidden;
+      border:1px solid #999;
+    }
+    .canvas.oneSixtySixHundred {
+      width:158px;
+      height:598px;
+    }
+    """
+  '728x90 CSS':
+    'prefix': '728x90 CSS'
+    'body': """
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .canvas {
+      position:relative;
+      overflow:hidden;
+      border:1px solid #999;
+    }
+    .canvas.sevenTwoEightNinety {
+      width:88px;
+      height:726px;
+    }
+    """
+  '300x250 CSS':
+    'prefix': '300x250 CSS'
+    'body': """
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .canvas {
+      position:relative;
+      overflow:hidden;
+      border:1px solid #999;
+    }
+    .canvas.threeHundredTwoFifty {
+      width:298px;
+      height:248px;
+    }
+    """
+  '300x600 CSS':
+    'prefix': '300x600 CSS'
+    'body': """
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .canvas {
+      position:relative;
+      overflow:hidden;
+      border:1px solid #999;
+    }
+    .canvas.threeHundredSixHundred {
+      width:298px;
+      height:598px;
+    }
+    """

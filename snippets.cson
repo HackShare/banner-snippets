@@ -1,0 +1,131 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+# Snippets for better workflow for banners and common tasks
+# Banners sizes: 160x600, 728x90, 300x250, 300x600
+
+'.text.html.basic':
+  '160x600 Scaffolding':
+    'prefix': '160x600 Banner'
+    'body': """
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name=”ad.size” content=”width=160,height=600”>
+      <script type="text/javascript">
+        var clickTag = "http://www.google.com";
+      </script>
+
+      <title>$1</title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+      <style>body{margin:0px;padding:0px}</style>
+      </head>
+
+      <body>
+      	<div class="canvas oneSixtySixHundred">
+          $2
+          <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineLite.min.js"></script>
+          <script src="assets/js/main.js"></script>
+      </body>
+      </html>
+      """
+  '728x90 Scaffolding':
+    'prefix': '728x90 Banner'
+    'body': """
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name=”ad.size” content=”width=728,height=90”>
+      <script type="text/javascript">
+        var clickTag = "http://www.google.com";
+      </script>
+
+      <title>$1</title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+      <style>body{margin:0px;padding:0px}</style>
+      </head>
+
+      <body>
+      	<div class="canvas sevenTwoEightNinety">
+          $2
+          <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineLite.min.js"></script>
+          <script src="assets/js/main.js"></script>
+      </body>
+      </html>
+      """
+  '300x250 Scaffolding':
+    'prefix': '300x250 Banner'
+    'body': """
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name=”ad.size” content=”width=300,height=250”>
+      <script type="text/javascript">
+        var clickTag = "http://www.google.com";
+      </script>
+
+      <title>$1</title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+      <style>body{margin:0px;padding:0px}</style>
+      </head>
+
+      <body>
+      	<div class="canvas threeHundredxTwoFifty">
+          $2
+          <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineLite.min.js"></script>
+          <script src="assets/js/main.js"></script>
+      </body>
+      </html>
+      """
+  '300x600 Scaffolding':
+    'prefix': '300x600 Banner'
+    'body': """
+      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+      <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name=”ad.size” content=”width=300,height=600”>
+      <script type="text/javascript">
+        var clickTag = "http://www.google.com";
+      </script>
+
+      <title>$1</title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+      <style>body{margin:0px;padding:0px}</style>
+      </head>
+
+      <body>
+      	<div class="canvas threeHundredSixHundred">
+          $2
+          <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineLite.min.js"></script>
+          <script src="assets/js/main.js"></script>
+      </body>
+      </html>
+      """

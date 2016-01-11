@@ -8,4 +8,4 @@ Banners sizes: <br>
 300x600
 
 # USAGE
-To use start with a blank HMTL document and start typing the size required and tab/enter to fill out code.
+To use start with a blank HTML document and start typing the size required and tab/enter to fill out code.

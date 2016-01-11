@@ -14,4 +14,7 @@ css: assets/css/all.css
 js: assets/js/main.js
 
 # USAGE
+
+Copy the file contents into your ~/.atom snippets.cson file.
+
 To use start with a blank HTML document and start typing the size required and tab/enter to fill out code.

@@ -13,11 +13,14 @@ Copy the file contents into your ~/.atom snippets.cson file.
 
 To use start with a blank HTML, CSS or JS document and start typing one of the following:
 
-HTML - banner-html5-google
-creates scaffolding for html 5 banner, you just need to add sizes and banner specific content.
+HTML - 
 
-CSS - CSS banner
-creates css reset and basic styling for a HTML5 Banner
+"banner-html5-google" creates scaffolding for html 5 banner, you just need to add sizes and banner specific content.
 
-JS - tlm
-creates timelineMax basic structure including creating the variables for banner elements, start function, replay function.
+CSS - 
+
+"CSS banner" creates css reset and basic styling for a HTML5 Banner
+
+JS - 
+
+"tlm" creates timelineMax basic structure including creating the variables for banner elements, start function, replay function.

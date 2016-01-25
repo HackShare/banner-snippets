@@ -129,6 +129,57 @@
       </body>
       </html>
       """
+  'banner html5 google':
+    'prefix': 'banner-html5-google'
+    'body': """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name=”ad.size” content=”width=$1,height=$2>
+        <title>$3</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+        <script type="text/javascript" src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"> </script>
+    </head>
+
+    <body>
+      <div id="ad">
+
+        <div id="banner">
+
+          <!-- Frame One -->
+          <div class="frame-one">
+            $4
+          </div>
+
+          <!-- Frame Two -->
+          <div class="frame-two">
+            $5
+          </div>
+
+          <!-- Frame Three -->
+          <div class="frame-three">
+            $6
+          </div>
+
+          <img src="assets/img/replay.gif" alt="" class="replay" id="replay" />
+
+          <!-- Fallback and ClickTag -->
+          <a onclick="ExitApi.exit()" class="clicktag">
+            <!--[if lte IE 8]> <img src="fallback.jpg" alt=""> <![endif]-->
+          </a>
+
+        </div>
+
+      </div>
+
+        <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+        <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.18.0_499ba64a23378545748ff12d372e59e9_min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
+    """
 '.source.css':
   '160x600 CSS':
     'prefix': '160x600 CSS'
@@ -196,5 +247,15 @@
     .canvas.threeHundredSixHundred {
       width:298px;
       height:598px;
+    }
+    """
+'.source.js':
+  'Basic TimelineLite setup':
+    'prefix': 'tl'
+    'body': """
+    var tl = new TimelineLite();
+
+    window.onload = function () {
+      $1
     }
     """
